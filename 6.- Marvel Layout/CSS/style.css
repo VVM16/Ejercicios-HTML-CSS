@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    border: 0;
+    border-collapse: collapse;
+}
+header{
+    text-align: center;
+    background-color: black;
+    margin-bottom: 10px;
+    margin-left: 1000px;
+    margin-right: 1000px;
+}
+main {
+    display: block;
+    text-align: center;
+    background-color: black; 
+    margin-left: 1000px;
+    margin-right: 1000px;
+}
+.texto1 {
+    color: yellow;
+    padding-top: 25px;
+   font-size: 50px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.texto2 {
+    color: white;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.texto3 {
+    color: white;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 23px;
+}
+.texto4 {
+    color: white;
+    padding-top: 20px;
+    font-size: 28px;
+    padding-bottom: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.boton1
+{
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: bolder;
+    width: 400px;
+    border: 5px solid orangered;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.boton2
+{
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: bolder;
+    width: 400px;
+    border: 5px solid orangered;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.imagen1 {
+   margin-bottom: 20px;
+   margin-top: 20px;
+   width: 35%;
+}
+.texto5 {
+    color: white;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-size: 64px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.texto6 {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 18px;
+  
+}
+
+.boton3 {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: bolder;
+    width: 400px;
+    border: 5px solid orangered;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.tabla1{
+    margin-left: auto;
+    margin-right: auto;
+}
+.barrita {
+    color: white;
+
+}
+.texto7 {
+    margin-left: 1000px;
+    margin-right: 1000px;
+    color: black
+}
+.texto8 {
+    margin-left: 1000px;
+    margin-right: 1000px;
+    color: black
+  
+}
+.texto9 {
+    margin-left: 1000px;
+    margin-right: 1000px;
+    color: black
+
+}
