@@ -1,0 +1,103 @@
+* { 
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    background-image: url("../img/hobbit_bg.jpg");
+    background-repeat: no-repeat;
+    background-color: lightgray;
+    background-size: 100%;
+    overflow: hidden;
+    height: 350px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%);
+    display: block;
+    color: white;
+    padding-left: 400px;
+    padding-top: 180px;
+}
+p {
+    color: lightgray;
+}
+.t {
+    display: inline-block;
+    font-size: 46px;
+}
+
+
+.PEGI {
+    display: inline-block;
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: orange;
+    color: black;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.l {
+    display: inline-block;
+    font-size: 20px;
+}
+
+
+main {
+    display: flex;
+    grid-template-columns: auto auto;
+    align-items: top;
+    background-color: rgb(159, 159, 159);
+    flex-direction: row;
+    height: 500px;
+    margin-top: -100px;
+}
+.parte-izquierda {
+    display: block;
+    width: 30%;
+    margin-left: 60px;
+    position: absolute;
+    top: 350px;    
+}
+
+.categorias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    align-content: space-around;
+    width: 180px; 
+    height: 80px;
+}
+
+
+.texto {
+    display: block;
+    padding: 5px;
+    background-color: rgb(255, 255, 255) ;
+    border-radius: 10px;
+    color: rgb(0, 0, 0) ;
+}
+
+.parte-derecha {
+    display: block;
+    color: gray;
+    width: 50%;
+    margin-left: 350px;
+    margin-right: 10%;
+    margin-top: 100px;
+}
+
+.boton1 {
+    display: block;
+    margin-top: 10px;
+}
+
+.avatares {
+    margin-top: 20px;
+}
