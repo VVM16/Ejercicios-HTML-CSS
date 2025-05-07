@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lilita+One&family=Monoton&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Titan+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Monoton&family=Titan+One&display=swap" rel="stylesheet">
+    <title>Cadenas</title>
+</head>
+<body>
+
+    <main>
+    
+    <div class="container">
+   
+        <div class="izquierda-arriba">
+           <h1>CONCATENAR</h1>
+           <br>
+           <form>
+           <input id="cadena1" class="input-conc" type="text"> 
+           <label class="label-conc" for=""></label>
+           <br>
+           <br>
+           <input class="input-conc" id="cadena2" type="text">
+           <input id="boton1" class="boton" type="button" onclick="concatenar()" value="CALCULA">
+        </form>
+        <p  class="result-izq-up" id="result-izq-up"></p>
+        </div>
+
+        <div class="derecha-arriba">
+            <h1>LONGITUD</h1>
+            <br>
+            <form>
+            <input id="cadena3" class="input-long" type="text">
+            <label class="label-long"></label>
+            <input class="boton-long" type="button" onclick="longitud()" value="CALCULA">
+            </form>
+            <p class="result-der-up" id="result-der-up"></p>        
+        </div>
+   
+        <div class="izquierda-abajo">
+            <h1>REEMPLAZAR</h1>
+            <form>
+            <br>
+            <input id="cadena4" class="input-reemp" type="text">
+            <label class="label-reemp" for=""></label>
+            <br>
+            <br>
+            <input id="cadena5" class="input-reemp-mini" type="text">
+            <input id="cadena6" class="input-reemp-mini" type="text">
+            <input class="boton" type="button" onclick="reemplazar()" value="CALCULA">
+            </form>
+            <p class="result-izq-down" id="result-izq-down"></p>
+        </div>
+        
+
+        <div class="derecha-abajo">
+        <h1>DIVIDIR</h1>
+        <form>
+        <br>
+        <label class="label-divis" for=""></label>
+        <input id="cadena7" class="input-divis" type="text">
+        <br>
+        <br>
+        <input id="cadena8" class="input-divis-mini" type="text">
+        <input class="boton" type="button" onclick="division()" value="CALCULA">
+        </form>
+        <p class="result-der-down" id="result-der-down"></p>
+        </div>
+
+    </div>
+
+    </main>
+
+    <script src="js/ejer-3.1.js"></script>
+</body>
+</html>

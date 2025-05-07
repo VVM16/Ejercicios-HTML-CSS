@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+.monoton-regular {
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.container {
+    margin-top: 100px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 30px;
+    row-gap: 30px;
+
+}
+.izquierda-arriba {
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 300px; 
+    font-family: "Monoton", sans-serif;
+    color: black;
+    background-color: red;
+}
+        .input-conc {
+            width: 300px;
+            height: 30px;
+        }
+        .boton {
+            background-color: blue;
+            color: white;
+            text-decoration: none;
+            width: 80px;
+            height: 39px;
+            display: block;
+            margin-left: 550px;
+            position: relative;
+            top: -80px;
+            font-family: "Titan One", sans-serif;
+        }
+        .result-izq-up {
+            font-family: "Lato", sans-serif; 
+            color: black;
+        }
+
+
+.derecha-arriba {
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 300px; 
+    font-family: "Monoton", sans-serif;
+    color: black;
+    background-color: orange;
+}
+        .boton-long {
+            background-color: blue;
+            color: white;
+            text-decoration: none;
+            width: 80px;
+            height: 39px;
+            display: block;
+            margin-left: 550px;
+            position: relative;
+            top: -35px;
+            font-family: "Titan One", sans-serif;
+        }
+        .input-long {
+            width: 300px;
+            height: 30px;
+        }
+        .result-der-up {
+            color: black;
+            font-family: "Lato", sans-serif;
+        }
+
+
+.izquierda-abajo {
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 300px; 
+    font-family: "Monoton", sans-serif;
+    color: black;
+    background-color: yellow;
+}
+        .input-reemp {
+            width: 300px;
+            height: 30px;
+        }
+        .input-reemp-mini {
+            width: 120px;
+            height: 30px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .result-izq-down {
+            color: black;
+            font-family: "Lato", sans-serif;
+        }
+
+
+
+.derecha-abajo {
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 300px; 
+    font-family: "Monoton", sans-serif;
+    color: black;
+    background-color: orangered;
+}
+        .input-divis {
+            width: 300px;
+            height: 30px;
+        }
+        .input-divis-mini {
+            width: 120px;
+            height: 30px;
+        }
+        .result-der-down {
+            color: black;
+            font-family: "Lato", sans-serif;
+        }
