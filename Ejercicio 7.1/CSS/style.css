@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+
+  .lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+div {
+    background-color: orangered;
+    text-align: center;
+    position: absolute;
+    color: black;
+    font-family: "Titan One", sans-serif;;
+    font-weight: 100;
+    font-style: normal;
+    border: 4px solid black;
+    border-radius: 6px;
+    top: 210px;
+    left: 600px;
+    width: 365px;
+    height: 340px;
+}
+.frase {
+    width: 220px;
+    height: 22px;
+    color: black;
+    background-color: greenyellow;
+}
+
+.boton {
+     background-color: black;
+    height: 30px;
+    width: 60px;
+    color: orangered;
+     font-family: "Titan One", sans-serif;;
+     text-align: center;
+     font-size: 15px;
+     border: 4px solid orangered;
+     border-radius: 10px;
+}
+
+.resultado {
+  background-color: greenyellow;
+  text-align: center;
+    position: absolute;
+    color: black;
+    top: 220px;
+    left: 72px;
+    width: 220px;
+    height: 30px;
+    font-style: normal;
+    border: 4px solid black;
+    border-radius: 6px;
+  
+}
